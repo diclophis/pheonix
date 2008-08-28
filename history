@@ -155,3 +155,623 @@
   155  vi /usr/lib/ruby/gems/1.8/gems/rack-0.4.0/lib/rack/handler/fastcgi.rb 
   156  /etc/init.d/apache2 reload
   157  history > ~/build/history
+  158  cd
+  159  cd build/
+  160  vi history 
+  161  git add history 
+  162  git commit -a -m "back up, rocking"
+  163  git push origin master
+  164  cd
+  165  tail -f /var/log/risingcode.log 
+  166  cd /var/www/risingcode/
+  167  vi risingcode.rb 
+  168  vi risingcode.rb 
+  169  /etc/init.d/apache2 reload
+  170  vi risingcode.rb 
+  171  /etc/init.d/apache2 reload
+  172  /etc/init.d/apache2 reload
+  173  vi risingcode.rb 
+  174  /etc/init.d/apache2 reload
+  175  tail -f -n 1000 /var/log/apache2/error.log 
+  176  tail -f -n 1000 /var/log/apache2/error.log  | less
+  177  tail -f -n 1000 /var/log/apache2/error.log 
+  178  vi risingcode.rb 
+  179  /etc/init.d/apache2 reload
+  180  vi risingcode.rb 
+  181  /etc/init.d/apache2 reload
+  182  vi risingcode.rb 
+  183  ls
+  184  vi boot.rb
+  185  grep -Rn "state" /usr/lib/ruby/gems/1.8/gems/camping/
+  186  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  187  mysql -u root -p
+  188  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  189  vi risingcode.rb 
+  190  /etc/init.d/apache2 reload
+  191  vi risingcode.rb 
+  192  /etc/init.d/apache2 reload
+  193  vi risingcode.rb 
+  194  /etc/init.d/apache2 reload
+  195  vi risingcode.rb 
+  196  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  197  /etc/init.d/apache2 reload
+  198  vi risingcode.rb 
+  199  /etc/init.d/apache2 reload
+  200  vi risingcode.rb 
+  201  /etc/init.d/apache2 reload
+  202  vi risingcode.rb 
+  203  /etc/init.d/apache2 reload
+  204  vi risingcode.rb 
+  205  /etc/init.d/apache2 reload
+  206  vi risingcode.rb 
+  207  /etc/init.d/apache2 reload
+  208  vi risingcode.rb 
+  209  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  210  vi risingcode.rb 
+  211  /etc/init.d/apache2 reload
+  212  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/session.rb 
+  213  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  214  vi risingcode.rb 
+  215  /etc/init.d/apache2 reload
+  216  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  217  vi risingcode.rb 
+  218  /etc/init.d/apache2 reload
+  219  vi risingcode.rb 
+  220  /etc/init.d/apache2 reload
+  221  git commit -a -m "updated to latest camping"
+  222  git push origin master
+  223  vi risingcode.rb 
+  224  /etc/init.d/apache2 reload
+  225  vi risingcode.rb 
+  226  /etc/init.d/apache2 reload
+  227  vi risingcode.rb 
+  228  /etc/init.d/apache2 reload
+  229  vi risingcode.rb 
+  230  /etc/init.d/apache2 reload
+  231  ruby risingcode.rb 
+  232  vi risingcode.rb 
+  233  ruby risingcode.rb 
+  234  /etc/init.d/apache2 reload
+  235  ruby risingcode.rb 
+  236  vi risingcode.rb 
+  237  ruby risingcode.rb 
+  238  /etc/init.d/apache2 reload
+  239  vi risingcode.rb 
+  240  /etc/init.d/apache2 reload
+  241  vi risingcode.rb 
+  242  /etc/init.d/apache2 reload
+  243  vi risingcode.rb 
+  244  /etc/init.d/apache2 reload
+  245  vi risingcode.rb 
+  246  /etc/init.d/apache2 reload
+  247  vi risingcode.rb 
+  248  /etc/init.d/apache2 reload
+  249  vi risingcode.rb 
+  250  /etc/init.d/apache2 reload
+  251  vi risingcode.rb 
+  252  /etc/init.d/apache2 reload
+  253  vi risingcode.rb 
+  254  /etc/init.d/apache2 reload
+  255  vi risingcode.rb 
+  256  git commit -a -m "fixes for redcloth, and oembed"
+  257  git push origin master
+  258  ls public/images/
+  259  vi risingcode.rb 
+  260  vi monkey_patches.rb 
+  261  /etc/init.d/apache2 reload
+  262  mv ~/quotes.gif public/images/
+  263  mv ~/main.css public/stylesheets/
+  264  git add public/images/quotes.gif 
+  265  git commit -a -m "style fixes"
+  266  git push origin master
+  267  vi public/stylesheets/main.css 
+  268  mv ~/gray_quotes.png public/images/
+  269  git add public/images/gray_quotes.png 
+  270  git commit -a -m "style fixes 2"
+  271  git push origin master
+  272  vi risingcode.rb 
+  273  /etc/init.d/apache2 reload
+  274  vi risingcode.rb 
+  275  /etc/init.d/apache2 reload
+  276  /etc/init.d/apache2 reload
+  277  /etc/init.d/apache2 reload
+  278  sudo killall -9 ruby
+  279  sudo killall -9 dispatch.fcgi
+  280  ps aux
+  281  ruby risingcode.rb 
+  282  rake document
+  283  ls -ltr /tmp/
+  284  vi /tmp/458aea5d6aef2629eb9b55eeccf84a39.rb 
+  285  vi risingcode.rb 
+  286  /etc/init.d/apache2 reload
+  287  vi risingcode.rb 
+  288  /etc/init.d/apache2 reload
+  289  vi risingcode.rb 
+  290  /etc/init.d/apache2 reload
+  291  vi risingcode.rb 
+  292  /etc/init.d/apache2 reload
+  293  vi public/stylesheets/main.css 
+  294  git commit -a -m "even more fixes for redcloth, hardbreaks are stupid"
+  295  git push origin master
+  296  vi risingcode.rb 
+  297  /etc/init.d/apache2 reload
+  298  history > ~/build/history 
+    1  top
+    2  ps aux | grep dd
+    3  ps aux | grep dd
+    4  dpkg -l
+    5  dpkg -l | grep "ii"
+    6  dpkg -l | grep "ii" | wc -l
+    7  dpkg -l | grep "ii" | cut -d "  " -f 2
+    8  dpkg -l | grep "ii" | cut -d " " -f 2
+    9  dpkg -l | grep "ii" | cut -d " " -f 3
+   10  dpkg -l | grep "ii" | cut -d " " -f 3 > packages.default
+   11  diff packages.all packages.default 
+   12  vi differences.sh
+   13  chmod +x differences.sh 
+   14  ./differences.sh 
+   15  vi differences.sh
+   16  ./differences.sh 
+   17  vi differences.sh
+   18  ./differences.sh 
+   19  vi differences.sh
+   20  ./differences.sh 
+   21  vi differences.sh
+   22  ./differences.sh 
+   23  vi differences.sh
+   24  ./differences.sh 
+   25  vi differences.sh
+   26  ./differences.sh 
+   27  vi differences.sh
+   28  ./differences.sh 
+   29  ./differences.sh  | wc -l
+   30  vi differences.sh
+   31  ./differences.sh  | sort | uniq | wc -l
+   32  vi differences.sh
+   33  ./differences.sh | grep need
+   34  vi differences.sh
+   35  ./differences.sh 
+   36  vi differences.sh
+   37  ./differences.sh 
+   38  ./differences.sh | wc -l
+   39  wc -l packages.default 
+   40  vi differences.sh
+   41  ./differences.sh
+   42  vi differences.sh
+   43  ./differences.sh
+   44  ./differences.sh | wc 0l
+   45  ./differences.sh | wc -l
+   46  ./differences.sh | grep need | wc -l
+   47  ./differences.sh | grep installed | wc -l
+   48  wc -l packages.default 
+   49  vi packages.default 
+   50  ./differences.sh | grep need
+   51  vi differences.sh 
+   52  ./differences.sh | grep need
+   53  ./differences.sh
+   54  vi differences.sh 
+   55  ./differences.sh
+   56  vi differences.sh 
+   57  ./differences.sh
+   58  vi differences.sh 
+   59  vi differences.sh 
+   60  ./differences.sh
+   61  ldconfig
+   62  ls
+   63  mkdir build
+   64  mv *.* build/
+   65  cd build/
+   66  ls
+   67  ls
+   68  pwd
+   69  wget "http://rubyforge.org/frs/download.php/38646/rubygems-1.2.0.tgz"
+   70  tar zxvf rubygems-1.2.0.tgz 
+   71  cd rubygems-1.2.0
+   72  ls
+   73  vi README 
+   74  ruby setup.rb 
+   75  cd ..
+   76  wget "http://voxel.dl.sourceforge.net/sourceforge/mod-fcgid/mod_fcgid.2.2.tgz"
+   77  tar zxvf mod_fcgid.2.2.tgz 
+   78  cd mod_fcgid.2.2
+   79  ls
+   80  vi Makefile
+   81  vi RE
+   82  vi INSTALL.txt 
+   83  vi Makefile
+   84  vi Makefile
+   85  cd ..
+   86  vi packages.all 
+   87  vi /etc/apache2/mods-enabled/fcgid.conf 
+   88  /etc/init.d/apache2 restart
+   89  vi gems
+   90  vim
+   91  which vi
+   92  vi -v
+   93  vi ~/.vimrc
+   94  vi ~/.vimrc
+   95  vim ~/.vimrc
+   96  vi /etc/apache2/sites-available/default 
+   97  vim /etc/apache2/sites-available/default 
+   98  vi ~/.vimrc
+   99  cat ~/.vimrc 
+  100  vi
+  101  apt-get install vim-enhanced
+  102  apt-cache search vim
+  103  apt-get install vim-full
+  104  vim /etc/apache2/sites-available/default 
+  105  vi /etc/apache2/sites-available/default 
+  106  vi wang.rb
+  107  vi ~/.vimrc
+  108  ls
+  109  vi build/differences.sh 
+  110  vi /etc/apache2/sites-available/default 
+  111  /etc/init.d/apache2 reload
+  112  cd
+  113  cd /var/www/
+  114  git clone git://github.com/diclophis/risingcode.git
+  115  ls
+  116  cd risingcode/
+  117  cd
+  118  vi .gitconfig 
+  119  cd /var/www/risingcode/
+  120  vi risingcode.rb 
+  121  git commit -a -m "something on ec2 broke"
+  122  git push origin master
+  123  cd ..
+  124  rm -Rf risingcode/
+  125  git clone git@github.com:diclophis/risingcode.git
+  126  vi ~/.gitconfig 
+  127  vi ~/.ssh/authorized_keys 
+  128  vi ~/.ssh/known_hosts 
+  129  git clone git@github.com:diclophis/risingcode.git
+  130  vi ~/.ssh/config
+  131  vi ~/.ssh/gsg-keypair
+  132  git clone git@github.com:diclophis/risingcode.git
+  133  chmod 400 ~/.ssh/gsg-keypair 
+  134  git clone git@github.com:diclophis/risingcode.git
+  135  cp ~/.ssh/config ~/build/ssh.config
+  136  mv ~/apache2/ ~/build/
+  137  cp ~/build/apache2/sites-available/999-risingcode /etc/apache2/sites-available/
+  138  ln -s /etc/apache2/sites-available/999-risingcode /etc/apache2/sites-enabled/999-risingcode
+  139  vi /etc/apache2/sites-available/999-risingcode 
+  140  /etc/init.d/apache2 restart
+  141  ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
+  142  /etc/init.d/apache2 restart
+  143  mkdir default
+  144  /etc/init.d/apache2 restart
+  145  tail -f /var/log/apache2/
+  146  tail -f /var/log/apache2/risingcode.access.log 
+  147  tail -f /var/log/apache2/error.log 
+  148  cd ~/build/
+  149  ls
+  150  vi gems 
+  151  chmod +x gems 
+  152  vi gems 
+  153  ./gems 
+  154  vi gems 
+  155  mv gems gems.sh
+  156  vi gems 
+  157  vi gems.sh 
+  158  ./gems.sh 
+  159  vi gems.sh 
+  160  gem1.8 install fcgi
+  161  vi gems.sh 
+  162  gem install mysql -- --with-mysql-conf
+  163  gem1.8 install mysql -- --with-mysql-conf
+  164  vi gems.sh 
+  165  /etc/init.d/apache2 reload
+  166  tail -f /var/log/apache2/error.log 
+  167  /etc/init.d/apache2 reload
+  168  tail -f /var/log/apache2/error.log 
+  169  history > ~/build/history 
+  170  tail -f /var/log/risingcode.log 
+  171  tail -f /var/log/risingcode.log 
+  172  tail -f /var/log/risingcode.log 
+  173  tail -f /var/log/risingcode.log 
+  174  tail -f /var/log/apache2/error.log 
+  175  tail -f /var/log/risingcode.log 
+  176  tail -f /var/log/risingcode.log 
+  177  tail -f /var/log/apache2/error.log 
+  178* tail -f /var/log/apache2/error.log
+  179  tail -f /var/log/risingcode.log 
+  180  history >> ~/build/history 
+    1  top
+    2  ps aux | grep dd
+    3  ps aux | grep dd
+    4  dpkg -l
+    5  dpkg -l | grep "ii"
+    6  dpkg -l | grep "ii" | wc -l
+    7  dpkg -l | grep "ii" | cut -d "  " -f 2
+    8  dpkg -l | grep "ii" | cut -d " " -f 2
+    9  dpkg -l | grep "ii" | cut -d " " -f 3
+   10  dpkg -l | grep "ii" | cut -d " " -f 3 > packages.default
+   11  diff packages.all packages.default 
+   12  vi differences.sh
+   13  chmod +x differences.sh 
+   14  ./differences.sh 
+   15  vi differences.sh
+   16  ./differences.sh 
+   17  vi differences.sh
+   18  ./differences.sh 
+   19  vi differences.sh
+   20  ./differences.sh 
+   21  vi differences.sh
+   22  ./differences.sh 
+   23  vi differences.sh
+   24  ./differences.sh 
+   25  vi differences.sh
+   26  ./differences.sh 
+   27  vi differences.sh
+   28  ./differences.sh 
+   29  ./differences.sh  | wc -l
+   30  vi differences.sh
+   31  ./differences.sh  | sort | uniq | wc -l
+   32  vi differences.sh
+   33  ./differences.sh | grep need
+   34  vi differences.sh
+   35  ./differences.sh 
+   36  vi differences.sh
+   37  ./differences.sh 
+   38  ./differences.sh | wc -l
+   39  wc -l packages.default 
+   40  vi differences.sh
+   41  ./differences.sh
+   42  vi differences.sh
+   43  ./differences.sh
+   44  ./differences.sh | wc 0l
+   45  ./differences.sh | wc -l
+   46  ./differences.sh | grep need | wc -l
+   47  ./differences.sh | grep installed | wc -l
+   48  wc -l packages.default 
+   49  vi packages.default 
+   50  ./differences.sh | grep need
+   51  vi differences.sh 
+   52  ./differences.sh | grep need
+   53  ./differences.sh
+   54  vi differences.sh 
+   55  ./differences.sh
+   56  vi differences.sh 
+   57  ./differences.sh
+   58  vi differences.sh 
+   59  vi differences.sh 
+   60  ./differences.sh
+   61  ldconfig
+   62  ls
+   63  mkdir build
+   64  mv *.* build/
+   65  cd build/
+   66  ls
+   67  ls
+   68  pwd
+   69  wget "http://rubyforge.org/frs/download.php/38646/rubygems-1.2.0.tgz"
+   70  tar zxvf rubygems-1.2.0.tgz 
+   71  cd rubygems-1.2.0
+   72  ls
+   73  vi README 
+   74  ruby setup.rb 
+   75  cd ..
+   76  wget "http://voxel.dl.sourceforge.net/sourceforge/mod-fcgid/mod_fcgid.2.2.tgz"
+   77  tar zxvf mod_fcgid.2.2.tgz 
+   78  cd mod_fcgid.2.2
+   79  ls
+   80  vi Makefile
+   81  vi RE
+   82  vi INSTALL.txt 
+   83  vi Makefile
+   84  vi Makefile
+   85  cd ..
+   86  vi packages.all 
+   87  vi /etc/apache2/mods-enabled/fcgid.conf 
+   88  /etc/init.d/apache2 restart
+   89  vi gems
+   90  vim
+   91  which vi
+   92  vi -v
+   93  vi ~/.vimrc
+   94  vi ~/.vimrc
+   95  vim ~/.vimrc
+   96  cd build/
+   97  ls
+   98  rm -Rf mod_fcgid.2.2*
+   99  rm -Rf rubygems-1.2.0
+  100  ls
+  101  git init
+  102  vi README
+  103  git add *
+  104  git commit -m 'first commit'
+  105  git remote add origin git@github.com:diclophis/pheonix.git
+  106  git push origin master
+  107  cd
+  108  apt-get install libfcgi-dev
+  109  cd build/
+  110  vi packages.all 
+  111  ls
+  112  vi differences.sh 
+  113  dpkg -l | grep ii | cut -d " " -f 3
+  114  vi differences.sh 
+  115  ./differences.sh 
+  116  vi differences.sh 
+  117  ./differences.sh > packages.new
+  118  vi packages.
+  119  vi packages.new 
+  120  ls
+  121  git add packages.new 
+  122  git commit -a -f "fixing the new package detection"
+  123  git commit -a -m "fixing the new package detection"
+  124  git push origin master
+  125  cd /usr/lib/ruby/gems/1.8/gems/
+  126  ls camping-1.5/
+  127  git clone   git://github.com/why/camping.git
+  128  mv camping-1.5/ ~/tmp/old-camping
+  129  mv camping-1.5/ /tmp/old-camping
+  130  ln -s camping/ camping-1.5
+  131  cd
+  132  git clone git://github.com/judofyr/ruby-oembed.git
+  133  cd
+  134  cd /var/www/risingcode/
+  135  vi risingcode.rb 
+  136  ruby risingcode.rb 
+  137  vi risingcode.rb 
+  138  vi boot.rb
+  139  ruby risingcode.rb 
+  140  touch /var/log/risingcode.log
+  141  chmod -Rv 777 /var/log/risingcode.log 
+  142  ls
+  143  cp ~/risingcode.rb .
+  144  cp ~/fast.rb 
+  145  cp ~/fast.rb .
+  146  ruby risingcode.rb 
+  147  vi risingcode.rb 
+  148  ruby risingcode.rb 
+  149  vi Rakefile 
+  150  mysqladmin -u root -p create risingcode
+  151  rake migrate
+  152  vi public/dispatch.fcgi 
+  153  vi /usr/lib/ruby/gems/1.8/gems/rack-0.4.0/
+  154  vi public/dispatch.fcgi 
+  155  vi /usr/lib/ruby/gems/1.8/gems/rack-0.4.0/lib/rack/handler/fastcgi.rb 
+  156  /etc/init.d/apache2 reload
+  157  history > ~/build/history
+  158  cd
+  159  cd build/
+  160  vi history 
+  161  git add history 
+  162  git commit -a -m "back up, rocking"
+  163  git push origin master
+  164  cd
+  165  tail -f /var/log/risingcode.log 
+  166  cd /var/www/risingcode/
+  167  vi risingcode.rb 
+  168  vi risingcode.rb 
+  169  /etc/init.d/apache2 reload
+  170  vi risingcode.rb 
+  171  /etc/init.d/apache2 reload
+  172  /etc/init.d/apache2 reload
+  173  vi risingcode.rb 
+  174  /etc/init.d/apache2 reload
+  175  tail -f -n 1000 /var/log/apache2/error.log 
+  176  tail -f -n 1000 /var/log/apache2/error.log  | less
+  177  tail -f -n 1000 /var/log/apache2/error.log 
+  178  vi risingcode.rb 
+  179  /etc/init.d/apache2 reload
+  180  vi risingcode.rb 
+  181  /etc/init.d/apache2 reload
+  182  vi risingcode.rb 
+  183  ls
+  184  vi boot.rb
+  185  grep -Rn "state" /usr/lib/ruby/gems/1.8/gems/camping/
+  186  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  187  mysql -u root -p
+  188  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  189  vi risingcode.rb 
+  190  /etc/init.d/apache2 reload
+  191  vi risingcode.rb 
+  192  /etc/init.d/apache2 reload
+  193  vi risingcode.rb 
+  194  /etc/init.d/apache2 reload
+  195  vi risingcode.rb 
+  196  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  197  /etc/init.d/apache2 reload
+  198  vi risingcode.rb 
+  199  /etc/init.d/apache2 reload
+  200  vi risingcode.rb 
+  201  /etc/init.d/apache2 reload
+  202  vi risingcode.rb 
+  203  /etc/init.d/apache2 reload
+  204  vi risingcode.rb 
+  205  /etc/init.d/apache2 reload
+  206  vi risingcode.rb 
+  207  /etc/init.d/apache2 reload
+  208  vi risingcode.rb 
+  209  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  210  vi risingcode.rb 
+  211  /etc/init.d/apache2 reload
+  212  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/session.rb 
+  213  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  214  vi risingcode.rb 
+  215  /etc/init.d/apache2 reload
+  216  vi /usr/lib/ruby/gems/1.8/gems/camping/lib/camping/ar/session.rb
+  217  vi risingcode.rb 
+  218  /etc/init.d/apache2 reload
+  219  vi risingcode.rb 
+  220  /etc/init.d/apache2 reload
+  221  git commit -a -m "updated to latest camping"
+  222  git push origin master
+  223  vi risingcode.rb 
+  224  /etc/init.d/apache2 reload
+  225  vi risingcode.rb 
+  226  /etc/init.d/apache2 reload
+  227  vi risingcode.rb 
+  228  /etc/init.d/apache2 reload
+  229  vi risingcode.rb 
+  230  /etc/init.d/apache2 reload
+  231  ruby risingcode.rb 
+  232  vi risingcode.rb 
+  233  ruby risingcode.rb 
+  234  /etc/init.d/apache2 reload
+  235  ruby risingcode.rb 
+  236  vi risingcode.rb 
+  237  ruby risingcode.rb 
+  238  /etc/init.d/apache2 reload
+  239  vi risingcode.rb 
+  240  /etc/init.d/apache2 reload
+  241  vi risingcode.rb 
+  242  /etc/init.d/apache2 reload
+  243  vi risingcode.rb 
+  244  /etc/init.d/apache2 reload
+  245  vi risingcode.rb 
+  246  /etc/init.d/apache2 reload
+  247  vi risingcode.rb 
+  248  /etc/init.d/apache2 reload
+  249  vi risingcode.rb 
+  250  /etc/init.d/apache2 reload
+  251  vi risingcode.rb 
+  252  /etc/init.d/apache2 reload
+  253  vi risingcode.rb 
+  254  /etc/init.d/apache2 reload
+  255  vi risingcode.rb 
+  256  git commit -a -m "fixes for redcloth, and oembed"
+  257  git push origin master
+  258  ls public/images/
+  259  vi risingcode.rb 
+  260  vi monkey_patches.rb 
+  261  /etc/init.d/apache2 reload
+  262  mv ~/quotes.gif public/images/
+  263  mv ~/main.css public/stylesheets/
+  264  git add public/images/quotes.gif 
+  265  git commit -a -m "style fixes"
+  266  git push origin master
+  267  vi public/stylesheets/main.css 
+  268  mv ~/gray_quotes.png public/images/
+  269  git add public/images/gray_quotes.png 
+  270  git commit -a -m "style fixes 2"
+  271  git push origin master
+  272  vi risingcode.rb 
+  273  /etc/init.d/apache2 reload
+  274  vi risingcode.rb 
+  275  /etc/init.d/apache2 reload
+  276  /etc/init.d/apache2 reload
+  277  /etc/init.d/apache2 reload
+  278  sudo killall -9 ruby
+  279  sudo killall -9 dispatch.fcgi
+  280  ps aux
+  281  ruby risingcode.rb 
+  282  rake document
+  283  ls -ltr /tmp/
+  284  vi /tmp/458aea5d6aef2629eb9b55eeccf84a39.rb 
+  285  vi risingcode.rb 
+  286  /etc/init.d/apache2 reload
+  287  vi risingcode.rb 
+  288  /etc/init.d/apache2 reload
+  289  vi risingcode.rb 
+  290  /etc/init.d/apache2 reload
+  291  vi risingcode.rb 
+  292  /etc/init.d/apache2 reload
+  293  vi public/stylesheets/main.css 
+  294  git commit -a -m "even more fixes for redcloth, hardbreaks are stupid"
+  295  git push origin master
+  296  vi risingcode.rb 
+  297  /etc/init.d/apache2 reload
+  298  history > ~/build/history 
+  299  history >> ~/build/history 
