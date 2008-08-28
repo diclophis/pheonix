@@ -1,0 +1,12 @@
+<VirtualHost *>
+	ServerName mandelbrot.risingcode.com
+	DocumentRoot /var/www/mandelbrot
+	DefaultInitEnv PATH /usr/bin
+	<Directory /var/www/mandelbrot>
+		Options ExecCGI FollowSymLinks
+		Order allow,deny
+		Allow from all
+	</Directory>
+	ServerSignature Off
+	CustomLog /var/log/apache2/mandelbrot.access.log combined
+</VirtualHost>

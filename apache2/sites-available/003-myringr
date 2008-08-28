@@ -1,0 +1,19 @@
+<VirtualHost *>
+	ServerName myringr.risingcode.com
+	DocumentRoot /var/www/myringr/public
+
+	DefaultInitEnv COMP_ROOT /var/www/myringr
+	DefaultInitEnv INLINEDIR /tmp/inlinedir
+	DefaultInitEnv PATH /usr/bin
+
+	<Directory /var/www/myringr/public>
+		Options ExecCGI FollowSymLinks
+		Order allow,deny
+		Allow from all
+		RewriteEngine On
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
+	</Directory>
+
+	ServerSignature Off
+</VirtualHost>

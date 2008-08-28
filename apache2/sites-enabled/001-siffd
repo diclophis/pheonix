@@ -1,0 +1,25 @@
+<VirtualHost *>
+	ServerAdmin diclophis@gmail.com
+	ServerName siffd.com
+  ServerAlias www.siffd.com
+	DocumentRoot /var/www/siffd/public
+
+	DefaultInitEnv COMP_ROOT /var/www/siffd
+
+	<Directory /var/www/siffd/public>
+		Options ExecCGI FollowSymLinks
+		Order allow,deny
+		Allow from all
+		RewriteEngine On
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
+	</Directory>
+
+	#LogLevel debug
+	#RewriteLogLevel 4
+	ErrorLog /var/log/apache2/siffd.error.log
+	CustomLog /var/log/apache2/siffd.access.log combined
+	#RewriteLog /var/log/apache2/siffd.rewrite.log
+
+	ServerSignature Off
+</VirtualHost>

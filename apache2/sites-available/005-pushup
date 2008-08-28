@@ -1,0 +1,12 @@
+<VirtualHost *>
+	ServerName pushup.risingcode.com
+	DocumentRoot /var/www/pushup
+	DefaultInitEnv PATH /usr/bin
+	<Directory /var/www/pushup>
+		Options ExecCGI FollowSymLinks
+		Order allow,deny
+		Allow from all
+	</Directory>
+	CustomLog /var/log/apache2/pushup.access.log combined
+	ServerSignature Off
+</VirtualHost>

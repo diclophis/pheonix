@@ -1,0 +1,19 @@
+<VirtualHost *>
+	ServerName heatmap.risingcode.com
+	DocumentRoot /var/www/heatmap/public
+
+	DefaultInitEnv COMP_ROOT /var/www/heatmap
+	DefaultInitEnv INLINEDIR /tmp/inlinedir
+	DefaultInitEnv PATH /usr/bin
+
+	<Directory /var/www/heatmap/public>
+		Options ExecCGI FollowSymLinks
+		Order allow,deny
+		Allow from all
+		RewriteEngine On
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
+	</Directory>
+
+	ServerSignature Off
+</VirtualHost>
