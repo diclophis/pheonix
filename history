@@ -1,0 +1,157 @@
+    1  top
+    2  ps aux | grep dd
+    3  ps aux | grep dd
+    4  dpkg -l
+    5  dpkg -l | grep "ii"
+    6  dpkg -l | grep "ii" | wc -l
+    7  dpkg -l | grep "ii" | cut -d "  " -f 2
+    8  dpkg -l | grep "ii" | cut -d " " -f 2
+    9  dpkg -l | grep "ii" | cut -d " " -f 3
+   10  dpkg -l | grep "ii" | cut -d " " -f 3 > packages.default
+   11  diff packages.all packages.default 
+   12  vi differences.sh
+   13  chmod +x differences.sh 
+   14  ./differences.sh 
+   15  vi differences.sh
+   16  ./differences.sh 
+   17  vi differences.sh
+   18  ./differences.sh 
+   19  vi differences.sh
+   20  ./differences.sh 
+   21  vi differences.sh
+   22  ./differences.sh 
+   23  vi differences.sh
+   24  ./differences.sh 
+   25  vi differences.sh
+   26  ./differences.sh 
+   27  vi differences.sh
+   28  ./differences.sh 
+   29  ./differences.sh  | wc -l
+   30  vi differences.sh
+   31  ./differences.sh  | sort | uniq | wc -l
+   32  vi differences.sh
+   33  ./differences.sh | grep need
+   34  vi differences.sh
+   35  ./differences.sh 
+   36  vi differences.sh
+   37  ./differences.sh 
+   38  ./differences.sh | wc -l
+   39  wc -l packages.default 
+   40  vi differences.sh
+   41  ./differences.sh
+   42  vi differences.sh
+   43  ./differences.sh
+   44  ./differences.sh | wc 0l
+   45  ./differences.sh | wc -l
+   46  ./differences.sh | grep need | wc -l
+   47  ./differences.sh | grep installed | wc -l
+   48  wc -l packages.default 
+   49  vi packages.default 
+   50  ./differences.sh | grep need
+   51  vi differences.sh 
+   52  ./differences.sh | grep need
+   53  ./differences.sh
+   54  vi differences.sh 
+   55  ./differences.sh
+   56  vi differences.sh 
+   57  ./differences.sh
+   58  vi differences.sh 
+   59  vi differences.sh 
+   60  ./differences.sh
+   61  ldconfig
+   62  ls
+   63  mkdir build
+   64  mv *.* build/
+   65  cd build/
+   66  ls
+   67  ls
+   68  pwd
+   69  wget "http://rubyforge.org/frs/download.php/38646/rubygems-1.2.0.tgz"
+   70  tar zxvf rubygems-1.2.0.tgz 
+   71  cd rubygems-1.2.0
+   72  ls
+   73  vi README 
+   74  ruby setup.rb 
+   75  cd ..
+   76  wget "http://voxel.dl.sourceforge.net/sourceforge/mod-fcgid/mod_fcgid.2.2.tgz"
+   77  tar zxvf mod_fcgid.2.2.tgz 
+   78  cd mod_fcgid.2.2
+   79  ls
+   80  vi Makefile
+   81  vi RE
+   82  vi INSTALL.txt 
+   83  vi Makefile
+   84  vi Makefile
+   85  cd ..
+   86  vi packages.all 
+   87  vi /etc/apache2/mods-enabled/fcgid.conf 
+   88  /etc/init.d/apache2 restart
+   89  vi gems
+   90  vim
+   91  which vi
+   92  vi -v
+   93  vi ~/.vimrc
+   94  vi ~/.vimrc
+   95  vim ~/.vimrc
+   96  cd build/
+   97  ls
+   98  rm -Rf mod_fcgid.2.2*
+   99  rm -Rf rubygems-1.2.0
+  100  ls
+  101  git init
+  102  vi README
+  103  git add *
+  104  git commit -m 'first commit'
+  105  git remote add origin git@github.com:diclophis/pheonix.git
+  106  git push origin master
+  107  cd
+  108  apt-get install libfcgi-dev
+  109  cd build/
+  110  vi packages.all 
+  111  ls
+  112  vi differences.sh 
+  113  dpkg -l | grep ii | cut -d " " -f 3
+  114  vi differences.sh 
+  115  ./differences.sh 
+  116  vi differences.sh 
+  117  ./differences.sh > packages.new
+  118  vi packages.
+  119  vi packages.new 
+  120  ls
+  121  git add packages.new 
+  122  git commit -a -f "fixing the new package detection"
+  123  git commit -a -m "fixing the new package detection"
+  124  git push origin master
+  125  cd /usr/lib/ruby/gems/1.8/gems/
+  126  ls camping-1.5/
+  127  git clone   git://github.com/why/camping.git
+  128  mv camping-1.5/ ~/tmp/old-camping
+  129  mv camping-1.5/ /tmp/old-camping
+  130  ln -s camping/ camping-1.5
+  131  cd
+  132  git clone git://github.com/judofyr/ruby-oembed.git
+  133  cd
+  134  cd /var/www/risingcode/
+  135  vi risingcode.rb 
+  136  ruby risingcode.rb 
+  137  vi risingcode.rb 
+  138  vi boot.rb
+  139  ruby risingcode.rb 
+  140  touch /var/log/risingcode.log
+  141  chmod -Rv 777 /var/log/risingcode.log 
+  142  ls
+  143  cp ~/risingcode.rb .
+  144  cp ~/fast.rb 
+  145  cp ~/fast.rb .
+  146  ruby risingcode.rb 
+  147  vi risingcode.rb 
+  148  ruby risingcode.rb 
+  149  vi Rakefile 
+  150  mysqladmin -u root -p create risingcode
+  151  rake migrate
+  152  vi public/dispatch.fcgi 
+  153  vi /usr/lib/ruby/gems/1.8/gems/rack-0.4.0/
+  154  vi public/dispatch.fcgi 
+  155  vi /usr/lib/ruby/gems/1.8/gems/rack-0.4.0/lib/rack/handler/fastcgi.rb 
+  156  /etc/init.d/apache2 reload
+  157  history > ~/build/history

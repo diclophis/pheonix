@@ -33,5 +33,7 @@ gem1.8 install \
  uuidtools \
  ZenTest
 
+gem1.8 install mysql -- --with-mysql-conf
+
 #openuri_memcached
 #actionmailer actionpack activerecord activerecord activeresource activesupport activesupport
