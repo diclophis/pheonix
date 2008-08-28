@@ -2,15 +2,17 @@
 
 NEEDED=""
 
-for I in `cat packages.all`
+for I in `dpkg -l | grep ii | cut -d " " -f 3`
 do
 	grep $I packages.default > /dev/null
 	if [ "$?" == "1" ];
 	then
+    echo $I
 		NEEDED="$NEEDED $I" 
 	fi
 done
 
-apt-get update
-apt-get dist-upgrade
-apt-get install $NEEDED
+#echo $NEEDED
+#apt-get update
+#apt-get dist-upgrade
+#apt-get install $NEEDED
